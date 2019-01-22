@@ -1,0 +1,369 @@
+{
+    "network_name": "Telia Network",
+    "elements": [{
+            "uid": "Terminal_Node_A",
+            "type": "Transceiver",
+            "metadata": {
+                "location": {
+                    "city": "Node A",
+                    "region": "",
+                    "latitude": 0,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Edfa_Node_A",
+            "type": "Edfa",
+            "type_variety": "high_detail_model_example",            
+            "operational": {
+                "gain_target": 18.22,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },		
+        {
+            "uid": "Span_AB",
+            "type": "Fiber",
+            "type_variety": "SSMF",
+            "params": {
+                "length": 80,
+                "loss_coef": 0.295625,
+                "length_units": "km",
+                "att_in": 0,
+                "con_in": 0.5,
+                "con_out": 0.5                
+                },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 1,
+                    "longitude": 0
+                }
+            }
+        },
+        {
+            "uid": "ILA_Node_B",
+            "type": "Edfa",
+            "type_variety": "high_detail_model_example",            
+            "operational": {
+                "gain_target": 24.83,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Span_BC",
+            "type": "Fiber",
+            "type_variety": "SSMF",
+            "params": {
+                "length": 82,
+                "loss_coef": 0.25829,
+                "length_units": "km",
+                "att_in": 0,
+                "con_in": 0.5,
+                "con_out": 0.5                
+                },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 1,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "ILA_Node_C",
+            "type": "Edfa",
+            "type_variety": "high_detail_model_example",            
+            "operational": {
+                "gain_target": 20.46,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Span_CD",
+            "type": "Fiber",
+            "type_variety": "SSMF",
+            "params": {
+                "length": 85,
+                "loss_coef": 0.2407,
+                "length_units": "km",
+                "att_in": 0,
+                "con_in": 0.5,
+                "con_out": 0.5                
+                },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 1,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "ILA_Node_D",
+            "type": "Edfa",
+            "type_variety": "high_detail_model_example",            
+            "operational": {
+                "gain_target": 23.09,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Span_DE",
+            "type": "Fiber",
+            "type_variety": "SSMF",
+            "params": {
+                "length": 106,
+                "loss_coef": 0.24,
+                "length_units": "km",
+                "att_in": 0,
+                "con_in": 0.5,
+                "con_out": 0.5                
+                },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 1,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "ILA_Node_E",
+            "type": "Edfa",
+            "type_variety": "raman_1",            
+            "operational": {
+                "gain_target": 19.18,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Span_EF",
+            "type": "Fiber",
+            "type_variety": "SSMF",
+            "params": {
+                "length": 56,
+                "loss_coef": 0.24142857,
+                "length_units": "km",
+                "att_in": 0,
+                "con_in": 0.5,
+                "con_out": 0.5                
+                },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 1,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "ILA_Node_F",
+            "type": "Edfa",
+            "type_variety": "high_detail_model_example",            
+            "operational": {
+                "gain_target": 21.07,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Span_FG",
+            "type": "Fiber",
+            "type_variety": "SSMF",
+            "params": {
+                "length": 79,
+                "loss_coef": 0.254683544,
+                "length_units": "km",
+                "att_in": 0,
+                "con_in": 0.5,
+                "con_out": 0.5                
+                },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 1,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "ILA_Node_G",
+            "type": "Edfa",
+            "type_variety": "high_detail_model_example",            
+            "operational": {
+                "gain_target": 21.34,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Span_GH",
+            "type": "Fiber",
+            "type_variety": "SSMF",
+            "params": {
+                "length": 125,
+                "loss_coef": 0.24,
+                "length_units": "km",
+                "att_in": 0,
+                "con_in": 0.5,
+                "con_out": 0.5                
+                },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 1,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Edfa_Node_H",
+            "type": "Edfa",
+            "type_variety": "raman_0",            
+            "operational": {
+                "gain_target": 31.59,
+                "tilt_target": 0,
+                "out_voa": 0
+            },
+            "metadata": {
+                "location": {
+                    "region": "",
+                    "latitude": 2,
+                    "longitude": 0
+                }
+            }
+        },
+		{
+            "uid": "Terminal_Node_H",
+            "type": "Transceiver",
+            "metadata": {
+                "location": {
+                    "city": "Node H",
+                    "region": "",
+                    "latitude": 0,
+                    "longitude": 0
+                }
+            }
+        }
+    ],
+    "connections": [{
+            "from_node": "Terminal_Node_A",
+            "to_node": "Edfa_Node_A"
+        },
+        {
+            "from_node": "Edfa_Node_A",
+            "to_node": "Span_AB"
+        },
+        {
+            "from_node": "Span_AB",
+            "to_node": "ILA_Node_B"
+        },
+		{
+            "from_node": "ILA_Node_B",
+            "to_node": "Span_BC"
+        },
+		{
+            "from_node": "Span_BC",
+            "to_node": "ILA_Node_C"
+        },
+		{
+            "from_node": "ILA_Node_C",
+            "to_node": "Span_CD"
+        },
+		{
+            "from_node": "Span_CD",
+            "to_node": "ILA_Node_D"
+        },
+		{
+            "from_node": "ILA_Node_D",
+            "to_node": "Span_DE"
+        },
+		{
+            "from_node": "Span_DE",
+            "to_node": "ILA_Node_E"
+        },
+		{
+            "from_node": "ILA_Node_E",
+            "to_node": "Span_EF"
+        },
+		{
+            "from_node": "Span_EF",
+            "to_node": "ILA_Node_F"
+        },
+		{
+            "from_node": "ILA_Node_F",
+            "to_node": "Span_FG"
+        },
+		{
+            "from_node": "Span_FG",
+            "to_node": "ILA_Node_G"
+        },
+		{
+            "from_node": "ILA_Node_G",
+            "to_node": "Span_GH"
+        },
+		{
+            "from_node": "Span_GH",
+            "to_node": "Edfa_Node_H"
+        },
+		{
+            "from_node": "Edfa_Node_H",
+            "to_node": "Terminal_Node_H"
+        }
+    ]
+}
