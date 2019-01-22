@@ -526,7 +526,7 @@ class Edfa(Node):
             # model OSNR = f(Pin)
             #nf_avg = pin_ch - nf_avg + 58
         else:
-            nf_avg = polyval(self.params.nf_fit_coeff, -dg)
+            nf_avg = polyval(self.params.nf_fit_coeff, min(gain_target,self.params.gain_flatmax))
         if avg:
             return nf_avg + pad
         else:
