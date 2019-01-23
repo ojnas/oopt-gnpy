@@ -163,7 +163,7 @@
 		{
             "uid": "ILA_Node_E",
             "type": "Edfa",
-            "type_variety": "raman_1",            
+            "type_variety": "raman_0",            
             "operational": {
                 "gain_target": 19.18,
                 "tilt_target": 0,
