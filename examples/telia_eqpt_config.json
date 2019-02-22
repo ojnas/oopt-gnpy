@@ -115,7 +115,7 @@
             "f_max":192.05e12,
             "spacing": 50e9,
             "power_dbm": -17.38,
-            "power_range_db": [0,0,0.5],
+            "power_range_db": [0,0.9629,0.9629],
             "roll_off": 0.2,
             "OSNR": 11,
             "bit_rate":200e9,
