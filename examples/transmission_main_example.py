@@ -136,9 +136,9 @@ def main(network, equipment, source, destination, req = None):
         print('invalid power range definition in eqpt_config, should be power_range_db: [lower, upper, step]')
         power_range = [0]
 
-    if not power_mode:
-        #power cannot be changed in gain mode
-        power_range = [0]
+    #if not power_mode:
+    #    #power cannot be changed in gain mode
+    #    power_range = [0]
     for dp_db in power_range:
         req.power = db2lin(pref_ch_db + dp_db)*1e-3
         if power_mode:

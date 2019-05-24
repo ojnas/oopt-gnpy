@@ -623,7 +623,8 @@ class Edfa(Node):
             # model OSNR = f(Pin)
             nf_avg = pin_ch - polyval(nf_model.nf_coef, pin_ch) + 58
         elif type_def == 'advanced_model':
-            nf_avg = polyval(nf_fit_coeff, -dg)
+            #nf_avg = polyval(nf_fit_coeff, -dg)
+            nf_avg = polyval(nf_fit_coeff, min(gain_target,gain_flatmax))
         else :
             print(
                 f'\x1b[1;31;40m'\
